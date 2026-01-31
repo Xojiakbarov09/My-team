@@ -1,0 +1,3 @@
+.succes-list {
+    @include Display($items:center, $space:space-between, $gap:0px)
+}

@@ -1,0 +1,43 @@
+.hero-section {
+    background-image: url(../images/icon3.png);
+    background-repeat: no-repeat;
+    background-size: 100px 200px;
+    background-position: left top;
+}
+
+.hero {
+    @include Display($items: center, $space: space-between, $gap:10px,);
+}
+
+.hero {
+    padding-bottom: 250px;
+    background-image: url(../images/icon2.svg);
+    background-size: 358px 100px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.hero-title-wrapper {
+    max-width: 600px;
+}
+
+.hero__title {
+    @include TextStyle($FW:700, $FS:100px, $LH:100px, $CLR:white,)
+}
+
+.hero-span {
+    color: $color-pink;
+}
+
+.hero-line {
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    background-color: $color-extralightgreen;
+    margin-bottom: 40px;
+}
+
+.hero-title {
+    @include TextStyle($FW:600, $FS:18px, $LH:28px, $CLR:white,);
+    width: 445px
+}
+

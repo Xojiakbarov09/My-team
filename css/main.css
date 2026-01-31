@@ -147,7 +147,125 @@ body {
 }
 
 .hero-section {
-  background-image: url(../images/icon.png);
+  background-image: url(../images/icon3.png);
   background-repeat: no-repeat;
+  background-size: 100px 200px;
+  background-position: left top;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 10px;
+}
+
+.hero {
+  padding-bottom: 250px;
+  background-image: url(../images/icon2.svg);
+  background-size: 358px 100px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.hero-title-wrapper {
+  max-width: 600px;
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  color: white;
+}
+
+.hero-span {
+  color: #F67E7E;
+}
+
+.hero-line {
+  display: inline-block;
+  width: 50px;
+  height: 4px;
+  background-color: #79C8C7;
+  margin-bottom: 40px;
+}
+
+.hero-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+  width: 445px;
+}
+
+.build-section {
+  background-color: #012F34;
+}
+
+.build__line {
+  display: inline-block;
+  width: 50px;
+  height: 4px;
+  background-color: #F67E7E;
+  margin-bottom: 40px;
+}
+
+.build {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 80px;
+  padding: 100px 0;
+}
+
+.build__text {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: white;
+  width: 445px;
+}
+
+.build__s {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #F67E7E;
+  width: 445px;
+  margin-bottom: 20px;
+}
+
+.build__h3 {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: white;
+  width: 445px;
+}
+
+.succes-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 0px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,33 @@
+.build-section {
+    background-color: $color-darkgreen;
+}
+
+.build__line {
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    background-color: $color-pink;
+    margin-bottom: 
+    40px;
+}
+
+.build {
+    @include Display($items:start, $space:space-between, $gap:80px);
+    padding: 100px 0;
+}
+
+.build__text {
+    @include TextStyle($FW:700, $FS:48px, $LH:48px, $CLR:$color-white,);
+    width: 445px;
+}
+
+.build__s {
+    @include TextStyle($FW:700, $FS:18px, $LH:28px, $CLR:$color-pink,);
+    width: 445px;
+    margin-bottom: 20px;
+}
+
+.build__h3 {
+    @include TextStyle($FW:600, $FS:15px, $LH:25px, $CLR:$color-white,);
+    width: 445px;
+}
